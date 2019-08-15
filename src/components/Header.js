@@ -4,7 +4,12 @@ import { Link } from "gatsby"
 import Footer from './Footer'
 import avatar from '../assets/images/avatar.jpg'
 
+
 function DynamicLink() {
+    var global = require("global")
+    var document = require("global/document")
+    var window = require("global/window")
+    //console.log(global, document, window)
     if (window.location.pathname == '/contact/') {
         return <Link to="/">Mes tableaux</Link>
     } else {

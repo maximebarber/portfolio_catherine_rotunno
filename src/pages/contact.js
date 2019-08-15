@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import ReactContactForm from 'react-mail-form';
 
 class Contact extends React.Component {
 
@@ -70,7 +69,7 @@ class Contact extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="mailto:catherinerotunno@gmail.com?Subject=Demande%20d'informations" target="_blank">catherinerotunno@gmail.com</a>
+                                        <a href="mailto:catherinerotunno@gmail.com?Subject=Demande%20d'informations" target="_blank" rel="noopener noreferrer">catherinerotunno@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
