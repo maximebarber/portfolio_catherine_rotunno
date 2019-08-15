@@ -923,7 +923,7 @@
 
 		> .inner {
 			@include vendor('flex-grow', '1');
-			margin: 0 0 ($size-header-pad * 0.5) 0;
+			margin: 5em 0 ($size-header-pad * 0.5) 0;
 		}
 
 		strong, b {
@@ -943,7 +943,7 @@
 
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 6.25em;
+			width: 10.25em;
 		}
 	}
 
