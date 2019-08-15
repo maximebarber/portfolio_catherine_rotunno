@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Catherine Rotunno",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    author: "Maxime Barber",
+    description: "Portfolio of artist Catherine Rotunno"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

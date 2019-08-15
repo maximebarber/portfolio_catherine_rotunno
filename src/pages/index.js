@@ -11,28 +11,40 @@ import thumb03 from '../assets/images/thumbs/03.jpg'
 import thumb04 from '../assets/images/thumbs/04.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
+import thumb07 from '../assets/images/thumbs/07.jpg'
+import thumb08 from '../assets/images/thumbs/08.jpg'
+import thumb09 from '../assets/images/thumbs/09.jpg'
+import thumb10 from '../assets/images/thumbs/10.jpg'
 
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
+import full01 from '../assets/images/thumbs/01.jpg'
+import full02 from '../assets/images/thumbs/02.jpg'
+import full03 from '../assets/images/thumbs/03.jpg'
+import full04 from '../assets/images/thumbs/04.jpg'
+import full05 from '../assets/images/thumbs/05.jpg'
+import full06 from '../assets/images/thumbs/06.jpg'
+import full07 from '../assets/images/thumbs/07.jpg'
+import full08 from '../assets/images/thumbs/08.jpg'
+import full09 from '../assets/images/thumbs/09.jpg'
+import full10 from '../assets/images/thumbs/10.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque', description: '900 €'},
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Barque', description: '900 €'},
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'Barque', description: '900 €'},
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Barque', description: '900 €'},
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'Ponton', description: '900 €'},
+    { id: '6', source: full06, thumbnail: thumb06, caption: 'Fleurs', description: '900 €'},
+    { id: '7', source: full07, thumbnail: thumb07, caption: 'Fleurs', description: '900 €'},
+    { id: '8', source: full08, thumbnail: thumb08, caption: 'Venise', description: '900 €'},
+    { id: '9', source: full09, thumbnail: thumb09, caption: 'Nature morte', description: '900 €'},
+    { id: '10', source: full10, thumbnail: thumb10, caption: 'Plage', description: '900 €'}
 ];
 
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Catherine Rotunno"
+        const siteDescription = "Portfolio of artist Catherine Rotunno"
 
         return (
             <Layout>
@@ -43,7 +55,7 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                    <section id="one">
+                    {/* <section id="one">
                         <header className="major">
                             <h2>Ipsum lorem dolor aliquam ante commodo<br />
                             magna sed accumsan arcu neque.</h2>
@@ -52,10 +64,10 @@ class HomeIndex extends React.Component {
                         <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul>
-                    </section>
+                    </section> */}
 
                     <section id="two">
-                        <h2>Recent Work</h2>
+                        <h2>Mes tableaux</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
@@ -64,9 +76,6 @@ class HomeIndex extends React.Component {
                             description
                         }))} />
 
-                        <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
                     </section>
 
                     <section id="three">

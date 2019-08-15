@@ -8,9 +8,12 @@ class Header extends React.Component {
         return (
             <header id="header">
                 <div className="inner">
-                    <img className="image avatar" src={avatar} alt="" />
-                    <h1><strong>Catherine Rotunno</strong>,<br />
+                    <a href="/" className="image avatar"><img className="image avatar" src={avatar} alt="" /></a>
+                    <h1><strong>Catherine Rotunno</strong><br />
                     Huile sur palettes et toiles<br /></h1>
+                    <ul className="actions">
+                        <li><a href="#">Me contacter</a></li>
+                    </ul>
                 </div>
                 <Footer />
             </header>
