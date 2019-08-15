@@ -15,7 +15,7 @@ function DynamicLink() {
     } else {
         return <Link to="/contact/">Me contacter</Link>
     } */
-    return <div><Link to="/">Mes tableaux</Link><br /><Link to="/contact/">Me contacter</Link></div> 
+    return <Link to="/">Mes tableaux</Link>
 }
 
 class Header extends React.Component {
@@ -25,10 +25,10 @@ class Header extends React.Component {
             <header id="header">
                 <div className="inner">
                     <Link  to="/"><img className="image avatar" src={avatar} alt="" /></Link>
-                    <h1><strong>Catherine Rotunno</strong><br />
-                    Huile sur palettes et toiles<br /></h1>
+                    <h1><strong>Catherine Rotunno</strong></h1>
+                    <h1>Huile sur palettes et toiles<br /></h1>
                     <ul className="actions">
-                        <DynamicLink />
+                        {/* <DynamicLink /> */}
                     </ul>
                 </div>
                 <Footer />
