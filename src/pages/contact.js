@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
+import ReactContactForm from 'react-mail-form';
 
 class Contact extends React.Component {
 
@@ -18,11 +19,32 @@ class Contact extends React.Component {
 
                 <div id="main">
                     <section id="three">
+                    <form name="contact" action="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+                        {/* <ReactContactForm to="maximebarberTest@gmail.com" buttonText="Envoyer" titlePlaceholder="Sujet" contentsRows="3"/> */}
                         <h2>Me contacter</h2>
                         <p>Si vous souhaitez acheter ou avoir plus d'informations sur l'un de mes tableaux, n'hésitez pas à me contacter !</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form method="post" action="#">
+                                <form name="contact" netlify>
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Nom" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -33,6 +55,7 @@ class Contact extends React.Component {
                                     <li><input type="submit" value="Envoyer" /></li>
                                 </ul>
                             </div>
+
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
