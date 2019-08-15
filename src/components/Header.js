@@ -1,18 +1,28 @@
 import React from 'react'
 
+import { Link } from "gatsby"
 import Footer from './Footer'
 import avatar from '../assets/images/avatar.jpg'
 
+function DynamicLink() {
+    if (window.location.pathname == '/contact/') {
+        return <Link to="/">Mes tableaux</Link>
+    } else {
+        return <Link to="/contact/">Me contacter</Link>
+    }
+}
+
 class Header extends React.Component {
+
     render() {
         return (
             <header id="header">
                 <div className="inner">
-                    <a href="/" className="image avatar"><img className="image avatar" src={avatar} alt="" /></a>
+                    <Link  to="/"><img className="image avatar" src={avatar} alt="" /></Link>
                     <h1><strong>Catherine Rotunno</strong><br />
                     Huile sur palettes et toiles<br /></h1>
                     <ul className="actions">
-                        <li><a href="#">Me contacter</a></li>
+                        <DynamicLink />
                     </ul>
                 </div>
                 <Footer />
