@@ -6,15 +6,16 @@ import avatar from '../assets/images/avatar.jpg'
 
 
 function DynamicLink() {
-    var global = require("global")
+    /* var global = require("global")
     var document = require("global/document")
     var window = require("global/window")
-    //console.log(global, document, window)
+    console.log(window)
     if (window.location.pathname == '/contact/') {
         return <Link to="/">Mes tableaux</Link>
     } else {
         return <Link to="/contact/">Me contacter</Link>
-    }
+    } */
+    return <div><Link to="/">Mes tableaux</Link><br /><Link to="/contact/">Me contacter</Link></div> 
 }
 
 class Header extends React.Component {
