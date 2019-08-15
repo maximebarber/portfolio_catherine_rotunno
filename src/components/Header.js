@@ -10,7 +10,7 @@ function DynamicLink() {
     var document = require("global/document")
     var window = require("global/window")
     console.log(window)
-    if (window.location.pathname == '/contact/') {
+    if (window.location.pathname === '/contact/') {
         return <Link to="/">Mes tableaux</Link>
     } else {
         return <Link to="/contact/">Me contacter</Link>
