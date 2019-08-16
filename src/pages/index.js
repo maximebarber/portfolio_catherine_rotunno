@@ -28,16 +28,16 @@ import full09 from '../assets/images/thumbs/09.jpg'
 import full10 from '../assets/images/thumbs/10.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque', description: 'Huile sur palette - 165x110 - 900 €'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Barque', description: '900 €'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Barque', description: '900 €'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Barque', description: '900 €'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Ponton', description: '900 €'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Fleurs', description: '900 €'},
-    { id: '7', source: full07, thumbnail: thumb07, caption: 'Fleurs', description: '900 €'},
-    { id: '8', source: full08, thumbnail: thumb08, caption: 'Venise', description: '900 €'},
-    { id: '9', source: full09, thumbnail: thumb09, caption: 'Nature morte', description: '900 €'},
-    { id: '10', source: full10, thumbnail: thumb10, caption: 'Plage', description: '900 €'}
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque à Lesina 1', description: 'Huile sur palette - 130 x 100 - 900 €'},
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Barque à Lesina 2', description: 'Huile sur palette - 130 x 100 - Déjà vendu'},
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'Barque à Lesina 3', description: 'Huile sur palette - 130 x 100 - 900 €'},
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Bateau à Burano', description: 'Huile sur palette - 130 x 100 - 900 €'},
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'Ponton Lac Lésina', description: 'Huile sur palette - 130 x 100 - 900 €'},
+    { id: '6', source: full06, thumbnail: thumb06, caption: 'Les Genêts', description: 'Huile sur toile - 89 x 131 - 700 €'},
+    { id: '7', source: full07, thumbnail: thumb07, caption: 'Fleurs', description: 'Huile sur toile - 89 x 131 - Déjà vendu'},
+    { id: '8', source: full08, thumbnail: thumb08, caption: 'Façade Vénitienne', description: 'Huile sur toile - 770 €'},
+    { id: '9', source: full09, thumbnail: thumb09, caption: 'Nature morte', description: 'Huile sur toile - 117 €'},
+    { id: '10', source: full10, thumbnail: thumb10, caption: 'Plage à Lesina', description: 'Huile sur toile - 357 €'}
 ];
 
 class HomeIndex extends React.Component {
@@ -57,10 +57,14 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>Créations Catherine Rotunno</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>Je peins sur des palettes ou des toiles au gré de mes inspirations : voyages, photos...</p>
+                        <p>Bien qu’ayant essayé d’autres matières telles que les pastels ou l’acrylique, c’est l’huile que je préfère.</p>
+                        <p>J’apprécie plus particulièrement les grands formats : 130x100 pour les palettes par exemple ou 89x131 pour certaines toiles.</p>
+                        <p>Ce qui me plaît avec les palettes c’est leur matière qui me fait penser aux coques des bateaux.</p>
+                        <p>Les sujets dépendent de mes lieux de promenade ou de voyage. J’aime aussi photographier les fleurs en macro afin de les reproduire avec tous leurs détails. 
+                        Cependant cela ne s’arrête pas là... une vieille façade de maison m’a récemment inspirée et demain? qui sait?</p>
                     </section>
 
                     <section id="two">
