@@ -15,6 +15,7 @@ import thumb07 from '../assets/images/thumbs/07.jpg'
 import thumb08 from '../assets/images/thumbs/08.jpg'
 import thumb09 from '../assets/images/thumbs/09.jpg'
 import thumb10 from '../assets/images/thumbs/10.jpg'
+import thumb11 from '../assets/images/thumbs/11.jpg'
 
 import full01 from '../assets/images/thumbs/01.jpg'
 import full02 from '../assets/images/thumbs/02.jpg'
@@ -26,6 +27,7 @@ import full07 from '../assets/images/thumbs/07.jpg'
 import full08 from '../assets/images/thumbs/08.jpg'
 import full09 from '../assets/images/thumbs/09.jpg'
 import full10 from '../assets/images/thumbs/10.jpg'
+import full11 from '../assets/images/thumbs/11.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque à Lesina 1', description: 'Huile sur palette - 130 x 100 - 900 €'},
@@ -37,7 +39,8 @@ const DEFAULT_IMAGES = [
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Fleurs', description: 'Huile sur toile - 89 x 131 - Déjà vendu'},
     { id: '8', source: full08, thumbnail: thumb08, caption: 'Façade Vénitienne', description: 'Huile sur toile - 770 €'},
     { id: '9', source: full09, thumbnail: thumb09, caption: 'Nature morte', description: 'Huile sur toile - 117 €'},
-    { id: '10', source: full10, thumbnail: thumb10, caption: 'Plage à Lesina', description: 'Huile sur toile - 357 €'}
+    { id: '10', source: full10, thumbnail: thumb10, caption: 'Plage à Lesina', description: 'Huile sur toile - 357 €'},
+    { id: '11', source: full11, thumbnail: thumb11, caption: 'La panthère', description: 'Huile sur palette - 1500 €'}
 ];
 
 class HomeIndex extends React.Component {
