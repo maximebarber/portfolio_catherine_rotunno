@@ -33,6 +33,7 @@ import full12 from '../assets/images/thumbs/12-1.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '11', source: full12, thumbnail: thumb12, caption: 'La tigresse', description: 'Huile sur toile - 1500 €' },
+    { id: '11', source: full11, thumbnail: thumb11, caption: 'La panthère', description: 'Huile sur palette - 1500 €' },
     { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque à Lesina 1', description: 'Huile sur palette - 130 x 100 - 900 €'},
     { id: '2', source: full02, thumbnail: thumb02, caption: 'Barque à Lesina 2', description: 'Huile sur palette - 130 x 100 - Déjà vendu'},
     { id: '3', source: full03, thumbnail: thumb03, caption: 'Barque à Lesina 3', description: 'Huile sur palette - 130 x 100 - 900 €'},
@@ -43,7 +44,6 @@ const DEFAULT_IMAGES = [
     { id: '8', source: full08, thumbnail: thumb08, caption: 'Façade Vénitienne', description: 'Huile sur toile - 770 €'},
     { id: '9', source: full09, thumbnail: thumb09, caption: 'Nature morte', description: 'Huile sur toile - 117 €'},
     { id: '10', source: full10, thumbnail: thumb10, caption: 'Plage à Lesina', description: 'Huile sur toile - 357 €'},
-    { id: '11', source: full11, thumbnail: thumb11, caption: 'La panthère', description: 'Huile sur palette - 1500 €'},
 ];
 
 class HomeIndex extends React.Component {
