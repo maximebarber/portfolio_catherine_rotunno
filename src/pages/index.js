@@ -43,7 +43,7 @@ const DEFAULT_IMAGES = [
     { id: '5', source: full05, thumbnail: thumb05, caption: 'Ponton Lac Lésina', description: 'Huile sur palette - 130 x 100 - 700 €'},
     { id: '6', source: full06, thumbnail: thumb06, caption: 'Les Genêts', description: 'Huile sur toile - 89 x 131 - 700 €'},
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Fleurs', description: 'Huile sur toile - 89 x 131 - Déjà vendu'},
-    { id: '8', source: full08, thumbnail: thumb08, caption: 'Façade Vénitienne', description: 'Huile sur toile - Déjà vendu €'},
+    { id: '8', source: full08, thumbnail: thumb08, caption: 'Façade Vénitienne', description: 'Huile sur toile - Déjà vendu'},
     { id: '9', source: full09, thumbnail: thumb09, caption: 'Nature morte', description: 'Huile sur toile - 117 €'},
     { id: '10', source: full10, thumbnail: thumb10, caption: 'Plage à Lesina', description: 'Huile sur toile - 357 €'},
 ];
