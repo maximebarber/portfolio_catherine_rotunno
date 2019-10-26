@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
+import headerImage from '../assets/images/thumbs/00.jpg'
+
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
 import thumb03 from '../assets/images/thumbs/03.jpg'
@@ -32,16 +34,16 @@ import full11 from '../assets/images/thumbs/11.jpg'
 import full12 from '../assets/images/thumbs/12-1.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '11', source: full12, thumbnail: thumb12, caption: 'La tigresse', description: 'Huile sur toile - 1500 €' },
-    { id: '11', source: full11, thumbnail: thumb11, caption: 'La panthère', description: 'Huile sur palette - 1500 €' },
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque à Lesina 1', description: 'Huile sur palette - 130 x 100 - 900 €'},
+    { id: '11', source: full12, thumbnail: thumb12, caption: 'La tigresse', description: 'Huile sur toile - 900 €' },
+    { id: '11', source: full11, thumbnail: thumb11, caption: 'La panthère', description: 'Huile sur palette - 900 €' },
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque à Lesina 1', description: 'Huile sur palette - 130 x 100 - 700 €'},
     { id: '2', source: full02, thumbnail: thumb02, caption: 'Barque à Lesina 2', description: 'Huile sur palette - 130 x 100 - Déjà vendu'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Barque à Lesina 3', description: 'Huile sur palette - 130 x 100 - 900 €'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Bateau à Burano', description: 'Huile sur palette - 130 x 100 - 900 €'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Ponton Lac Lésina', description: 'Huile sur palette - 130 x 100 - 900 €'},
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'Barque à Lesina 3', description: 'Huile sur palette - 130 x 100 - 700 €'},
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Bateau à Burano', description: 'Huile sur palette - 130 x 100 - 700 €'},
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'Ponton Lac Lésina', description: 'Huile sur palette - 130 x 100 - 700 €'},
     { id: '6', source: full06, thumbnail: thumb06, caption: 'Les Genêts', description: 'Huile sur toile - 89 x 131 - 700 €'},
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Fleurs', description: 'Huile sur toile - 89 x 131 - Déjà vendu'},
-    { id: '8', source: full08, thumbnail: thumb08, caption: 'Façade Vénitienne', description: 'Huile sur toile - 770 €'},
+    { id: '8', source: full08, thumbnail: thumb08, caption: 'Façade Vénitienne', description: 'Huile sur toile - Déjà vendu €'},
     { id: '9', source: full09, thumbnail: thumb09, caption: 'Nature morte', description: 'Huile sur toile - 117 €'},
     { id: '10', source: full10, thumbnail: thumb10, caption: 'Plage à Lesina', description: 'Huile sur toile - 357 €'},
 ];
@@ -66,6 +68,7 @@ class HomeIndex extends React.Component {
                             <h2>Créations Catherine Rotunno</h2>
                         </header>
                         <p>Je peins sur des palettes ou des toiles au gré de mes inspirations : voyages, photos...</p>
+                        <img class='headerImage' src={headerImage} alt="photo de l'artiste"/>
                         <p>Bien qu’ayant essayé d’autres matières telles que les pastels ou l’acrylique, c’est l’huile que je préfère.</p>
                         <p>J’apprécie plus particulièrement les grands formats : 130x100 pour les palettes par exemple ou 89x131 pour certaines toiles.</p>
                         <p>Ce qui me plaît avec les palettes c’est leur matière qui me fait penser aux coques des bateaux.</p>
