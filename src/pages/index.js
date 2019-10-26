@@ -68,7 +68,7 @@ class HomeIndex extends React.Component {
                             <h2>Créations Catherine Rotunno</h2>
                         </header>
                         <p>Je peins sur des palettes ou des toiles au gré de mes inspirations : voyages, photos...</p>
-                        <img class='headerImage' src={headerImage} alt="photo de l'artiste"/>
+                        {/* <img class='headerImage' src={headerImage} alt="photo de l'artiste"/> */}
                         <p>Bien qu’ayant essayé d’autres matières telles que les pastels ou l’acrylique, c’est l’huile que je préfère.</p>
                         <p>J’apprécie plus particulièrement les grands formats : 130x100 pour les palettes par exemple ou 89x131 pour certaines toiles.</p>
                         <p>Ce qui me plaît avec les palettes c’est leur matière qui me fait penser aux coques des bateaux.</p>
