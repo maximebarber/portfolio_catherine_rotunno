@@ -34,8 +34,8 @@ import full11 from '../assets/images/thumbs/11.jpg'
 import full12 from '../assets/images/thumbs/12-1.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '11', source: full12, thumbnail: thumb12, caption: 'La tigresse', description: 'Huile sur toile - 900 €' },
-    { id: '11', source: full11, thumbnail: thumb11, caption: 'La panthère', description: 'Huile sur palette - 900 €' },
+    { id: '12', source: full12, thumbnail: thumb12, caption: 'La tigresse', description: 'Huile sur toile - 90 x 120 - 900 €' },
+    { id: '11', source: full11, thumbnail: thumb11, caption: 'La panthère', description: 'Huile sur palette - 130 x 100 - 900 €' },
     { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque à Lesina 1', description: 'Huile sur palette - 130 x 100 - 700 €'},
     { id: '2', source: full02, thumbnail: thumb02, caption: 'Barque à Lesina 2', description: 'Huile sur palette - 130 x 100 - Déjà vendu'},
     { id: '3', source: full03, thumbnail: thumb03, caption: 'Barque à Lesina 3', description: 'Huile sur palette - 130 x 100 - 700 €'},
