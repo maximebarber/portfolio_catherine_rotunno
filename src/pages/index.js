@@ -35,12 +35,12 @@ import full12 from '../assets/images/thumbs/12-1.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '12', source: full12, thumbnail: thumb12, caption: 'La tigresse', description: 'Huile sur toile - 90 x 120 - 900 €' },
-    { id: '11', source: full11, thumbnail: thumb11, caption: 'La panthère', description: 'Huile sur palette - 130 x 100 - 900 €' },
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque à Lesina 1', description: 'Huile sur palette - 130 x 100 - 700 €'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Barque à Lesina 2', description: 'Huile sur palette - 130 x 100 - Déjà vendu'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Barque à Lesina 3', description: 'Huile sur palette - 130 x 100 - 700 €'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Bateau à Burano', description: 'Huile sur palette - 130 x 100 - 700 €'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Ponton Lac Lésina', description: 'Huile sur palette - 130 x 100 - 700 €'},
+    { id: '11', source: full11, thumbnail: thumb11, caption: 'La panthère', description: 'Huile sur palette - 137 x 100 - 900 €' },
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Barque à Lesina 1', description: 'Huile sur palette - 137 x 100 - 700 €'},
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Barque à Lesina 2', description: 'Huile sur palette - 137 x 100 - Déjà vendu'},
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'Barque à Lesina 3', description: 'Huile sur palette - 137 x 100 - 700 €'},
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Bateau à Burano', description: 'Huile sur palette - 137 x 100 - 700 €'},
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'Ponton Lac Lésina', description: 'Huile sur palette - 137 x 100 - 700 €'},
     { id: '6', source: full06, thumbnail: thumb06, caption: 'Les Genêts', description: 'Huile sur toile - 89 x 131 - 700 €'},
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Fleurs', description: 'Huile sur toile - 89 x 131 - Déjà vendu'},
     { id: '8', source: full08, thumbnail: thumb08, caption: 'Façade Vénitienne', description: 'Huile sur toile - Déjà vendu'},
