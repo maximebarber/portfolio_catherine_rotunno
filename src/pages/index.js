@@ -109,6 +109,7 @@ class HomeIndex extends React.Component {
 const styles = {
     headerImage: {
         width:'50%',
+        height: '100%',
         borderRadius: '8px',
     },
     headerImageDiv: {
